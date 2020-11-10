@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-		features = "src/test/resources/features/travelocity.feature",
+		features = "src/test/resources/features/filtropetbook.feature",
 		glue = {"co.com.devco.stepdefinitions"}
 )
-public class TravelocityRunner {
+public class FiltroPetBookRunner {
 
 }
